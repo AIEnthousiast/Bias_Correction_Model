@@ -9,6 +9,10 @@
 import sys
 import os
 
+
+
+#Gibberish
+
 def text_to_csv(input_filepath,output_filepath):
     with open(input_filepath,"r") as input,\
         open(output_filepath,"w") as output :
