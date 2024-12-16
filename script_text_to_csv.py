@@ -11,7 +11,6 @@ import os
 
 
 
-#Gibberish
 
 def text_to_csv(input_filepath,output_filepath):
     with open(input_filepath,"r") as input,\
@@ -19,7 +18,7 @@ def text_to_csv(input_filepath,output_filepath):
         for line in input:
             output.write(space_tab_to_csv(line))
 
-#Hello
+
 def space_tab_to_csv(line):
     return ",".join(line.split("\t"))
 
