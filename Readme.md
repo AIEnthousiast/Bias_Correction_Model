@@ -3,14 +3,19 @@ Bias Correction of Regional Climate Models
 
 The dataset includes modeled (mod) and observed (obs) climate data.
 
-Goal: Develop a correction function to reconstruct observed values as accurately as possible from the modeled values. Target variables are:
+Goal: Develop a correction function to reconstruct observed values as accurately as possible from the modeled values. 
 
-Temperature
-Precipitation
+Target variables are:
+
+- Temperature
+- Precipitation
+
+
 Inputs and Outputs:
 
 Input: Modeled data (mod)
 Target: Observed data (obs)
+
 Tasks:
 
 Analyze the Data: Investigate the differences between model predictions and observations, including graphical representations of the discrepancies.
